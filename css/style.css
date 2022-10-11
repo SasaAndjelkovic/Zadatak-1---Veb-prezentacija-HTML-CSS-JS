@@ -4,9 +4,29 @@
     font-family: 'Aldrich',Helvetica,Arial,Lucida,sans-serif;
 }
 
-.header-div {
+.header-div .section0 .section1 .section2{
     width: 100%;
     background-color: white;
+}
+
+.section0, .section1, .section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 a {
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.7em;
+    color: #000000;
+}
+
+.section2 {
+    text-decoration: underline;
+    color: #666;
+    line-height: 1.7em;
+    font-weight: 500;
 }
 
 .header-div .menu {
