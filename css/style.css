@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aldrich',Helvetica,Arial,Lucida,sans-serif;
+}
+
+.header-div {
+    width: 100%;
+    background-color: white;
+}
+
+.header-div .menu {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.menu-item {
+    padding: 1em;
+}
+
+.burger {
+    display: block;
+}
+
+.burger-menu {
+    display: none;
+}
+
+@media (width > 750px) {
+    .header-div .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
