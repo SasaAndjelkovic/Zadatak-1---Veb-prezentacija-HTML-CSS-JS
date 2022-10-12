@@ -1,3 +1,15 @@
-ul #one {
-    color: green;
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    border: 1px solid #666;
+    border-radius: 5px;
+    width: 50%;
+}
+
+form, label, input {
+    display: flex;
+    flex-direction: column;
 }
