@@ -65,17 +65,19 @@
     </header>
     <main>
       <form>
-        <div>
-          <label for="name">Ime:</label>
-          <input type="text" name="name" id="name" required />
+        <div class="wrap">
+          <form">
+            <label for="fname">korisnicko ime:</label><br />
+            <input type="text" id="fname"/><br />
+            <label for="lname">lozinka:</label><br />
+            <input
+              type="text"
+              id="lname"
+            /><br /><br />
+            <input type="submit" value="posalji" />
+            <input type="reset" value="obrisi"/>
+          </form>
         </div>
-        <div>
-          <label for="password">Lozinka:</label>
-          <input type="password" name="password" id="password" required />
-        </div>
-        <br />
-        <button>Posalji</button>
-        <input type="reset" value="Obrisi" />
       </form>
       <h1>Pozdrav</h1>
       <img
