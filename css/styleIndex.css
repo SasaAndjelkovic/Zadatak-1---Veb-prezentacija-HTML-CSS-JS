@@ -39,6 +39,16 @@ input[type=text] {
     background-color: #45a049;
   }
 
+  .pozdrav, .sala {
+    width: 70%;
+    margin: 0 auto 5% auto;
+  }
+
+  .sala .slika {
+    width: 100%;
+    height: auto;
+  }
+
   @media (width > 750px) {
     input[type=text], input[type=submit], input[type=reset] {
         width: 100%;
