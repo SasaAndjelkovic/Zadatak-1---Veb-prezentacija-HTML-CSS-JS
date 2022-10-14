@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/Audience_icon-icons.com_54210.png" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleAbout.css">
     <title>Pozoriste</title>
   </head>
   <body>
@@ -60,81 +61,96 @@
         <div>
           <img src="img/avatars/m1avatar.jpg" alt="" />
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+            <b>Radivoje Cerovic,</b> lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
             nobis debitis libero quibusdam ab ex, aspernatur eaque eos nihil
             quisquam.
           </p>
         </div>
         <div>
-          <img src="img/avatars/m2avatar.jfif" alt="" />
+          <img src="img/avatars/m2avatar.png" alt="" />
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+            <b>Vanjuska Vitjakov,</b> lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
             nobis debitis libero quibusdam ab ex, aspernatur eaque eos nihil
             quisquam.
           </p>
         </div>
         <div>
-          <img src="img/avatars/f1avatar.jpg" alt="" />
+          <img src="img/avatars/f1avatar.png" alt="" />
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+            <b>Nina Jankovic,</b> lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
             nobis debitis libero quibusdam ab ex, aspernatur eaque eos nihil
             quisquam.
           </p>
         </div>
         <div>
-          <img src="img/avatars/f2avatar.jpg" alt="" />
+          <img src="img/avatars/f2avatar.png" alt="" />
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
+            <b>Tamara Krcunovic,</b> lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni
             nobis debitis libero quibusdam ab ex, aspernatur eaque eos nihil
             quisquam.
           </p>
         </div>
       </div>
-      <form action="">
-        <label for="m1avatar">
+      <form class="izaberi">
+        <div class="radio">
+          <label for="m1avatar">
           <img
             src="img/avatars/m1avatar.jpg"
             alt="Ime 1"
-            width="75"
-            height="75"
+            width="60"
+            height="90"
           />
+          <div>Radivoje Cerovic</div>
+          
         </label>
+        <div><input type="radio" id="m1avatar" /></div>
+        </div>
 
-        <input type="radio" id="m1avatar" />
+        <div class="radio">
+          <label for="m2avatar">
+              <img
+              src="img/avatars/m2avatar.png"
+              alt="Ime 2"
+              width="60"
+              height="90"
+            />
+          <div>Vanjuska Vitjakov</div>
+          </label>
+          <div><input type="radio" id="m2avatar" /></div>
+        </div>
 
-        <label for="m2avatar">
+        <div class="radio">
+          <label for="f1avatar">
           <img
-            src="img/avatars/m2avatar.jfif"
-            alt="Ime 2"
-            width="75"
-            height="75"
-          />
-        </label>
-
-        <input type="radio" id="m2avatar" />
-
-        <label for="f1avatar">
-          <img
-            src="img/avatars/f1avatar.jpg"
+            src="img/avatars/f1avatar.png"
             alt="Ime 3"
-            width="75"
-            height="75"
+            width="60"
+            height="90"
           />
-        </label>
-
-        <input type="radio" id="f1avatar" />
-
-        <label for="f2avatar">
+          <div>Nina Jankovic</div>
+          
+          </label>
+          <div><input type="radio" id="f1avatar" /></div>
+          
+        </div>
+        
+        <div class="radio">
+          <label for="f2avatar">
           <img
-            src="img/avatars/f2avatar.jpg"
+            src="img/avatars/f2avatar.png"
             alt="Ime 4"
-            width="75"
-            height="75"
+            width="60"
+            height="90"
           />
-        </label>
+          <div>Tamara Krcunovic</div>
+          
+          </label>
 
-        <input type="radio" id="f2avatar" />
-        <input type="button" value="Potvrdi" />
+          <div><input type="radio" id="f2avatar" /></div>
+        </div>
+        
+        <div class="pot"><input type="submit" value="Potvrdi" /></div>
+        
       </form>
     </div>
     <div>

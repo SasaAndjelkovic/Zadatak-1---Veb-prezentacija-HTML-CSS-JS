@@ -1,0 +1,87 @@
+/* .avatars {
+    display: none;
+} */
+
+.izaberi {
+    display: none;
+}
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Aldrich',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 12px;
+}
+
+input[type=submit] {
+    width: 160px;
+    background-color: rgb(32, 145, 7);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+.radio {
+    display: grid;
+    grid-template-columns: 150px 10px;
+    justify-content: start; 
+    align-items: center;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+@media (751px <= width <=900px) {
+    form {
+        width: 50%;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(3);
+    }
+
+    .radio {
+        justify-content: center;  
+    }
+
+    .pot {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 100%;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+}
+
+@media (width > 900px) {
+    form {
+        width: 40%;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(3);
+    }
+
+    .radio {
+        justify-content: center;  
+    }
+
+    .pot {
+        grid-column: 1 / span 2;
+        justify-self: center;
+        width: 100%;
+    }
+
+    input[type=submit] {
+        width: 100%;
+    }
+}
