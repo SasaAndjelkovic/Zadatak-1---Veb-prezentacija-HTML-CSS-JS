@@ -1,5 +1,4 @@
 .avatars {
-    /* display: none; */
     width: 70%;
     margin: 0 auto;
     font-family: 'Aldrich',Helvetica,Arial,Lucida,sans-serif;
@@ -14,6 +13,10 @@
     gap: 5%;
     justify-content: space-around;
 }
+
+/* .active {
+    display: grid;
+} */
 
 .avatar .left {
     background-color:rgb(32, 145, 125);
@@ -73,6 +76,7 @@ input[type=submit] {
     align-items: center;
 }
 
+
 @media (751px <= width <=900px) {
     .avatar {
         grid-template-columns: 50% 50%;
@@ -89,11 +93,11 @@ input[type=submit] {
         justify-content: center;  
     }
 
-    .pot {
+    /* .pot {
         grid-column: 1 / span 2;
         justify-self: center;
         width: 100%;
-    }
+    } */
 
     input[type=submit] {
         width: 100%;
@@ -117,11 +121,11 @@ input[type=submit] {
         justify-content: center;  
     }
 
-    .pot {
+    /* .pot {
         grid-column: 1 / span 2;
         justify-self: center;
         width: 100%;
-    }
+    } */
 
     input[type=submit] {
         width: 100%;
