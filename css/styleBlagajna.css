@@ -38,14 +38,18 @@ input[type=date], input[type=number] {
     background-color: #45a049;
   }
 
-  .potvrda {
+  .potvrda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 70%;
-    margin: 0 auto 5% auto;
+    margin: 5% auto;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Aldrich',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 12px;
-    color: #000000;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(32, 145, 7);
   }
 
   @media (width > 750px) {

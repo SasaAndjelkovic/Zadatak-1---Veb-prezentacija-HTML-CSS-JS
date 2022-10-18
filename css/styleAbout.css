@@ -1,3 +1,15 @@
+.mi {
+    width: 70%;
+    margin: 0% auto;
+    font-family: 'Aldrich',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:rgb(32, 145, 7);
+    border-top: 1px solid rgb(32, 145, 7);
+    padding: 5%;
+}
+
 .avatars {
     width: 70%;
     margin: 0 auto;
@@ -29,6 +41,11 @@
 .avatar .left, .avatar .right {
     text-align: center;
     padding: 1em 2em; 
+}
+
+.avatar p {
+    padding: 5% 5% 15% 5%;
+    text-align: left;
 }
 
 .okvir {
@@ -78,6 +95,11 @@ input[type=submit] {
 
 
 @media (751px <= width <=900px) {
+    .mi {
+        font-size: 14px;
+        text-align: center;
+    }
+
     .avatar {
         grid-template-columns: 50% 50%;
         grid-template-rows: auto;
@@ -105,6 +127,10 @@ input[type=submit] {
 }
 
 @media (width > 900px) {  
+    .mi {
+        font-size: 14px;
+        text-align: center;
+    }
 
     .avatar {
         grid-template-columns: 50% 50%;
