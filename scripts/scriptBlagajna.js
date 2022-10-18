@@ -28,7 +28,37 @@ $("input[type='submit']").click(function(e){
         default:
           console.log("Greska")
       }
-    let karte = $("input[type='number'").val();
+    let karte = parseInt($("input[type='number'").val());
+    console.log(karte);
+    switch (karte) {
+      case 1:
+        broj = "kartu";
+        break;
+      case 2:
+        broj = "karte";
+        break;
+      case 3:
+        broj = "karte";
+        break;
+      case 4:
+        broj = "karte";
+        break;
+      case 5:
+        broj = "karata";
+        break;
+      case 6:
+        broj = "karata";
+        break;
+      default:
+        console.log("Greska!");
+    }
     $("form").hide();
-    $(".potvrda").html("Kupili ste " + karte + "karata za " + text + ". Dobrodosli!</h1>");
+    $(".potvrda").height( 70 );
+    $(".potvrda").css({"pading":"5%"});
+    if (datum == "") $(".potvrda").html("Izvini. Nisi uneo datum.");
+    if (karte > 6) {
+      $(".potvrda").html("Izvini. Maksimalni broj karata je 6.");
+    } else {
+      $(".potvrda").html("Kupili ste " + karte + " " + broj + " za predstavu " + text + ". Dobrodosli!");
+    }
 })
