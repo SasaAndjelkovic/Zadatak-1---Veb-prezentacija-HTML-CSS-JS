@@ -23,11 +23,14 @@ $(document).ready(function(){
 $("input[value='posalji']").click(function (e) {
     e.preventDefault();
     $(".wrap").hide();
+    $(".pozdrav").height( 70 );
+    $(".pozdrav").css({"pading":"5%"});
     let $text = "";
-    if ($("#fname").val() < 5 || $("#passw").val() < 5) {
+        console.log($("#fname").val());
+    if ($("#fname").val().length < 5 || $("#passw").val().length < 5) {
         $text = "Korisnicko ime ili lozinka su kraci od 5 karaktera!"
     } else {
         $text = $("#fname").val() + "!";
     }
-    $(".pozdrav").html("<h1>Dobrodosli,<h1> " + $text);
+    $(".pozdrav").html("Dobrodosli, " + $text);
 });
