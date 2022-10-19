@@ -19,9 +19,9 @@
 
 .avatar {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 350px;
     grid-template-rows: auto auto;
-    margin: 2em;
+    margin: 5%;
     gap: 5%;
     justify-content: space-around;
 }
@@ -40,11 +40,11 @@
 
 .avatar .left, .avatar .right {
     text-align: center;
-    padding: 1em 2em; 
+    padding: 5%; 
 }
 
 .avatar p {
-    padding: 5% 5% 15% 5%;
+    padding-bottom: 5%;
     text-align: left;
 }
 
@@ -85,7 +85,7 @@ form {
     color: white;
 }
 
-@media (751px <= width <=900px) {
+@media (651px <= width <=900px) {
     .mi {
         font-size: 14px;
         text-align: center;
@@ -99,7 +99,7 @@ form {
     form {
         width: 50%;
         grid-template-columns: auto auto;
-        grid-template-rows: repeat(3);
+        grid-template-rows: repeat(2);
     }
 
     .radio {
@@ -112,9 +112,9 @@ form {
         width: 100%;
     } */
 
-    input[type=submit] {
+    /* input[type=submit] {
         width: 100%;
-    }
+    } */
 }
 
 @media (width > 900px) {  
@@ -131,7 +131,7 @@ form {
     form {
         width: 40%;
         grid-template-columns: auto auto;
-        grid-template-rows: repeat(3);
+        grid-template-rows: repeat(2);
     }
 
     .radio {
@@ -144,7 +144,7 @@ form {
         width: 100%;
     } */
 
-    input[type=submit] {
+    /* input[type=submit] {
         width: 100%;
-    }
-}
+    }*/
+} 
