@@ -1,3 +1,5 @@
+
+
 form {
     padding: 5%;
     border-top: 1px solid rgb(32, 145, 7);
@@ -10,7 +12,7 @@ form {
     color: #000000;
 }
 
-input[type=text] {
+input[type=text], input[type=password] {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -62,8 +64,23 @@ input[type=text] {
     height: auto;
   }
 
+  .foo {
+    width: 70%;
+    height: 50px;
+    margin: 10% auto 0 auto;
+    background-color: rgb(31,73,31);
+    color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Aldrich',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 12px;
+  }
+
   @media (width > 750px) {
-    input[type=text], input[type=submit], input[type=reset] {
+    input[type=text], input[type=password], input[type=submit], input[type=reset] {
         width: 100%;
     }
     label, input[type=submit], input[type=reset] {
