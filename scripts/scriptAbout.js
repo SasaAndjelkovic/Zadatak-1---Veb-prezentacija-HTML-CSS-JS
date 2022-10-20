@@ -1,3 +1,4 @@
+ // $(".m2avatar").addClass(".active");
 $(".m1avatar").hide();
 $(".m2avatar").hide();
 $(".f1avatar").hide();
@@ -24,8 +25,6 @@ $( "input" ).on( "click", function(e) {
     default:
       console.log("Greska")
   }
-
-
 });
 
  // if ($id == "m1avatar") {
@@ -37,4 +36,3 @@ $( "input" ).on( "click", function(e) {
 // $(".pot").click(function(e) {
 //   e.preventDefault();
   
- // $(".m2avatar").addClass(".active");

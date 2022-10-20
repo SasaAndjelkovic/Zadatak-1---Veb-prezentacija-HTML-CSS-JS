@@ -26,7 +26,6 @@ $("input[value='posalji']").click(function (e) {
     $(".pozdrav").height( 70 );
     $(".pozdrav").css({"pading":"5%"});
     let $text = "";
-        console.log($("#fname").val());
     if ($("#fname").val().length < 5 || $("#passw").val().length < 5) {
         $text = "Korisnicko ime ili lozinka su kraci od 5 karaktera!"
     } else {
