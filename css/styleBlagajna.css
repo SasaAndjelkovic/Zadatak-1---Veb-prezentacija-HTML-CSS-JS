@@ -40,8 +40,8 @@ input[type=date], input[type=number] {
 
   .potvrda{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 70%;
     margin: 5% auto;
     font-weight: 700;

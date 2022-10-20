@@ -52,8 +52,7 @@ $("input[type='submit']").click(function(e){
         $(".potvrda").html("Izvini. Nisi odabrao broj karata.");
     }
     $("form").hide();
-    $(".potvrda").height( 70 );
-    $(".potvrda").css({"pading":"5%"});
+    $(".potvrda").css({"padding":"5%"});
     if (datum == "") {
       $(".potvrda").html("Izvini. Nisi uneo datum.");
     } else if (karte > 6 || karte < 1 || Number.isNaN(karte)) {
