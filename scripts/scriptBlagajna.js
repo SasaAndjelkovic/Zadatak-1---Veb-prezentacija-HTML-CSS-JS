@@ -56,7 +56,7 @@ $("input[type='submit']").click(function(e){
     if (datum == "") {
       $(".potvrda").html("Izvini. Nisi uneo datum.");
     } else if (karte > 6 || karte < 1 || Number.isNaN(karte)) {
-      $(".potvrda").html("Izvini. Okvir za kupovinu karta je od 1 do 6");
+      $(".potvrda").html("Izvini. Okvir za kupovinu je od 1 karte do 6 karata");
     } else {
       $(".potvrda").html("Kupili ste " + karte + " " + broj + " za predstavu " + text + ". Dobrodosli!");
     }
