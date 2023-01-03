@@ -1,16 +1,15 @@
 <?php
 
-class User extends BasicInformation implements PersonInformation {
-    private $status;
+class Manager extends BasicInformation implements PersonInformation {
+
 	private $email;
 	private $pass;
     
-    public function __construct($id, $name, $email, $pass, $status)
+    public function __construct($id, $name, $email, $pass)
     {
 		parent::__construct($id, $name);
 		$this->email = $email;
 		$this->pass = $pass;
-		$this->status = $status;
     }
 
 	public function getEmail() {
@@ -43,13 +42,5 @@ class User extends BasicInformation implements PersonInformation {
 	
 	public function setName($name_variable) {
 		$this->name = $name_variable;
-	}
-
-	public function getStatus() {
-		return $this->status;
-	}
-	
-	public function setStatus($status) {
-		$this->status = $status;
 	}
 }

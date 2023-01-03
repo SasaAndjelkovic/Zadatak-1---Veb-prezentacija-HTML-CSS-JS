@@ -1,7 +1,8 @@
 <?php
 
-interface PersonInformation {
+interface TheaterInformation {
     public function getDescription();
-    public function setDescription();
-    public function premium_number();
+    public function setDescription($description);
+    public function getPremium_number();
+    public function setPremium_number($premium_number);
 }

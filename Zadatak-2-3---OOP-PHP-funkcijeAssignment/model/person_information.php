@@ -2,7 +2,7 @@
 
 interface PersonInformation {
     public function getEmail();
-    public function setEmail();
+    public function setEmail($email);
     public function getPass();
-    public function setPass();
+    public function setPass($pass);
 }
